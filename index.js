@@ -5,13 +5,13 @@ document.querySelectorAll("p")[1].innerHTML="player2";//change
 
 var randomNumber1 = Math.floor(Math.random()*6)+1;
 var randomdiceimg1 ="dice"+randomNumber1+".png";
-var randomimgsource1="images/"+ randomdiceimg1;  
+var randomimgsource1= randomdiceimg1;  
 var image1=document.querySelectorAll( "img" )[0];  //select
 image1.setAttribute("src",randomimgsource1);    //assign
 
 var randomNumber2=Math.floor(Math.random()*6)+1;
 var randomdiceimg2= "dice"+randomNumber2+".png";
-var randomimgsource2="images/"+randomdiceimg2;
+var randomimgsource2=randomdiceimg2;
 var image2=document.querySelectorAll( "img" )[1] ;
 image2.setAttribute("src",randomimgsource2) ;
 
